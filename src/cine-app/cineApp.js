@@ -1,5 +1,5 @@
 // Projeto CineApp
-// Autoras: Débora Andrade e Gabriella Ayres
+// Autoras: Débora Andrade (227) e Gabriella Ayres (230)
 
 let cineApp = [
     { id: 1, title: "Titanic", gender: "Romance/Drama", year: 1997, status: "Não Visto", review: null, synopsis: "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fatídica viagem inaugural do Titanic em 1912." },
