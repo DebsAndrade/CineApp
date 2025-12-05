@@ -121,7 +121,7 @@ function contarPorGenero(generoAlvo) {
 contarPorGenero("Terror/Suspense");
 
 // Extra 1: Listar Melhores Filmes (Ranking)
-function listarRanking() {
+function hallDaFama() {
     const ranking = [...cineApp]
         .filter(filme => filme.status === "Visto")
         .sort((a, b) => b.review - a.review);
@@ -131,7 +131,7 @@ function listarRanking() {
     return ranking;
 }
 
-// listarRanking();
+// hallDaFama();
 
 // Extra 2: Buscar Filme (Busca inteligente)
 function buscarFilme(termo) {
@@ -143,7 +143,7 @@ buscarFilme("it");
 
 // Extra 3: Editar Título do Filme
 function editarTitulo(id, novoTitulo) {
-    const filme = cineApp.find(f => f.id === id);
+    const filme = cineApp.find(filme => filme.id === id);
     if (filme) {
         const antigo = filme.title;
         filme.title = novoTitulo;
