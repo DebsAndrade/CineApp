@@ -1,5 +1,7 @@
 # 🎬 CineApp - A Tua Netflix Pessoal
+
 ### 👩‍💻 Autoras: Débora Andrade e Gabriella Ayres
+- [Link Repositório-CineApp](https://github.com/DebsAndrade/CineApp)
 
 ## 🍿 O que é o CineApp?
 
@@ -9,6 +11,26 @@ Este projeto foi desenvolvido em JavaScript no âmbito do nosso curso, combinand
 ## 🚀 Funcionalidades Principais
 
 A nossa aplicação gere duas grandes fontes de verdade: a Coleção de Filmes (Array de Objetos) e o Log de Atividades.
+
+## Instruções de Execusão
+
+### Pré-Requisito: Ferramentas
+
+• Git;
+• GitHub;
+• Node.js;
+• Visual Studio Code.
+
+### Passos para Execução
+
+1. Git clone:
+
+> https://github.com/DebsAndrade/CineApp.git
+
+2. Executar Node
+
+> node cineApp.js
+
 
 ### ⚙️ Operações Básicas
 
@@ -25,13 +47,36 @@ A nossa aplicação gere duas grandes fontes de verdade: a Coleção de Filmes (
 Para ir além do básico, implementámos estas 3 operações exclusivas:
 1. 🏆 O "Hall da Fama" (Top Rated):
 • Filtra e lista apenas os filmes com nota 5. Só a nata do cinema!
-2. 🔍 Busca Rápida (Find):
+2. 🔍 Busca Rápida (Filter/Includes):
 • Pesquisa um filme pelo título (ou parte dele) usando métodos de string.
-3. ⏱️ Maratona Mode:
-• Soma a duração de todos os filmes na lista de "Pendentes". Ideal para saber se tens horas suficientes no domingo.
+3. ⏱️ Edição de Titulo/Filme:
+• Função para deixar mais interativo para o usuário. Deixando o nome do filme a sua escolha.
 
 ### 🕵️‍♀️ Caça ao Bug (Simulação)
 
 Como parte do desafio académico, implementámos propositadamente um erro de lógica.
 
-🔐 OBS: ADICIONAR NOSSOS BUGS AQUI APÓS FINALIZAR O CÓDIGO
+• Ao calcular a média dos filmes, a soma foi realizada com base no array original, em vez de utilizar a nova variável contendo o array atualizado de filmes vistos.
+
+![CineApp não definido](src/assets/print-bug/Print_Bug_01.jpeg) 
+
+![Média undefind](src/assets/print-bug/Print.Bug_02.jpeg)
+
+![Resultado média != filmesVistos](src/assets/print-bug/Print_Bug.3.jpeg) 
+
+
+### Fluxograma
+
+• Como parte do programa criamos fluxogramas para as operações abaixo:
+
+1. Listar Pendentes:
+
+![Fluxograma Listar Pendentes](src/assets/fluxogramas/Fluxograma_Mini_Projeto_Listar.jpg)
+
+2. Média de Avaliações:
+
+![Fluxograma Média de Avaliações](src/assets/fluxogramas/Fluxograma_Mini_Projeto_Media.jpg)
+
+
+
+
