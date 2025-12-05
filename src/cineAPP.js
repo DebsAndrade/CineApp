@@ -131,7 +131,7 @@ function listarRanking() {
     return ranking;
 }
 
-listarRanking();
+// listarRanking();
 
 // Extra 2: Buscar Filme (Busca inteligente)
 function buscarFilme(termo) {
